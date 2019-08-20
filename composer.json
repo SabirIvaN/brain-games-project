@@ -1,0 +1,16 @@
+{
+    "name": "sabirivan/braingames",
+    "description": "PHP project level 1",
+    "keywords": ["hexlet", "php", "project", "level1", "brainsgames"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Иван Сабиров",
+            "email": "sabirivan@yandex.com"
+        }
+    ],
+    "bin": [
+      "./brain-games",
+    ],
+    "require": {}
+}
