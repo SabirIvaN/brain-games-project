@@ -1,7 +1,7 @@
 {
     "name": "sabirivan/braingames",
     "description": "PHP project level 1",
-    "keywords": ["hexlet", "php", "project", "level1", "brainsgames"],
+    "keywords": ["hexlet", "php", "project", "level1", "braingames"],
     "license": "MIT",
     "authors": [
         {
@@ -10,6 +10,7 @@
         }
     ],
     "bin": [
-      "bin/brain-games",
+      "bin/brain-games"
     ],
+    "require": {}
 }
