@@ -15,10 +15,10 @@ function isEven($number)
 
 function startGameEven()
 {
-    $generateGame = function() {
-      $question = rand(MIN_VALUE, MAX_VALUE);
-      $rightAnswer = isEven($question) ? "yes" : "no";
-      return [$question, $rightAnswer];
+    $generateGame = function () {
+        $question = rand(MIN_VALUE, MAX_VALUE);
+        $rightAnswer = isEven($question) ? "yes" : "no";
+        return [$question, $rightAnswer];
     };
     starter(TASK, $generateGame);
 }
