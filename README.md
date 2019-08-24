@@ -3,4 +3,4 @@
 [![Build Status](https://travis-ci.org/SabirIvaN/php-project-lvl1.svg?branch=master)](https://travis-ci.org/SabirIvaN/php-project-lvl1)
 
 ##Brain-even
-[https://asciinema.org/connect/57eebacf-f960-4793-bed6-e988cba06714]
+[![asciicast](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS.svg)](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS)
