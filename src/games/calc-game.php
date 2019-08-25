@@ -28,8 +28,8 @@ function startCalcGame()
         $number_2 = rand(MIN_VALUE, MAX_VALUE);
         $char = CHARS[rand(0, count(SIGNS))];
         $question = "{$number_1} {$char} {$number_2}";
-        $correctAnswer = isCalc($number_1, $number_2, $char);
-        return [$question, $correctAnswer];
+        $rightAnswer = isCalc($number_1, $number_2, $char);
+        return [$question, $rightAnswer];
     };
     starter(TASK, $generateGame);
 }
