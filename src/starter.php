@@ -19,7 +19,7 @@ function starter($task, $getQuestionAnswer)
         line("Question: {$question}");
         $userAnswer = prompt("Your answer");
 
-        if ($userAnswer === $rightAnswer) {
+        if ((string)$userAnswer === (string)$rightAnswer) {
             line("Correct!");
         } else {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer is '{$rightAnswer}'.");
