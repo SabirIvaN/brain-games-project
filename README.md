@@ -20,7 +20,12 @@ After installation, start brain-games.
 [![asciicast](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L.svg)](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L)
 
 ## Run the game
-Start the game by calling the game module. You can run the following modules: brain-even, brain-calc, brain-gcd, brain-progression and brain-prime.
+Start the game by calling the game module. You can run the following modules:
+-brain-even 
+-brain-calc 
+-brain-gcd 
+-brain-progression 
+-brain-prime.
 
 ### Brain-even
 A game mode where user has to answer with a yes or no if the shown number is even.
