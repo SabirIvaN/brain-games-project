@@ -76,6 +76,8 @@ Unsuccessful end:
 ## Brain-prime
 A game mode where user has to answer with a yes or no if the shown number is a prime number.
 
+Successful end:
+
 [![asciicast](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb.svg)](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb)
 
 Unsuccessful end:
