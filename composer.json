@@ -2,6 +2,7 @@
     "name": "sabirivan/braingames",
     "description": "PHP project level 1",
     "keywords": ["hexlet", "php", "project", "level1", "braingames"],
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
