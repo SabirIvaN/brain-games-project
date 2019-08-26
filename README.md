@@ -32,53 +32,53 @@ Start the game by calling the game module. You can run the following modules:
 ### Brain-even
 A game mode where user has to answer with a yes or no if the shown number is even.
 
-Successful end:
+Successful end:  
 
 [![asciicast](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS.svg)](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS)
 
-Unsuccessful end:
+Unsuccessful end:  
 
 [![asciicast](https://asciinema.org/a/eYPE3oF4ExRuL5yGi32sEDJR8.svg)](https://asciinema.org/a/eYPE3oF4ExRuL5yGi32sEDJR8)
 
 ## Brain-calc
 A game mode where user has to answer the correct result of a simple mathematical expression.
 
-Successful end:
+Successful end:  
 
 [![asciicast](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN.svg)](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN)
 
-Unsuccessful end:
+Unsuccessful end:  
 
 [![asciicast](https://asciinema.org/a/8CBrdba7D7rpm5XTjI1gAyI2W.svg)](https://asciinema.org/a/8CBrdba7D7rpm5XTjI1gAyI2W)
 
 ## Brain-gcd
 A game mode where user has to answer which is the greatest common divisor of the two shown numbers.
 
-Successful end:
+Successful end:  
 
 [![asciicast](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx.svg)](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx)
 
-Unsuccessful end:
+Unsuccessful end:  
 
 [![asciicast](https://asciinema.org/a/MGgt3GqNEpr5pJWj2pfms0J2j.svg)](https://asciinema.org/a/MGgt3GqNEpr5pJWj2pfms0J2j)
 
 ## Brain-progression
 A game mode where user has to answer which is the missing number from the arithmetical progression.
 
-Successful end:
+Successful end:  
 
 [![asciicast](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB.svg)](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB)
 
-Unsuccessful end:
+Unsuccessful end:  
 
 [![asciicast](https://asciinema.org/a/UM4G3Q2fAjAUiL2K6FKSrVgr4.svg)](https://asciinema.org/a/UM4G3Q2fAjAUiL2K6FKSrVgr4)
 
 ## Brain-prime
 A game mode where user has to answer with a yes or no if the shown number is a prime number.
 
-Successful end:
+Successful end:  
 
 [![asciicast](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb.svg)](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb)
 
-Unsuccessful end:
+Unsuccessful end:  
 [![asciicast](https://asciinema.org/a/HAqQjUJ8ZdJbQs7V89D1Q9gmH.svg)](https://asciinema.org/a/HAqQjUJ8ZdJbQs7V89D1Q9gmH)
