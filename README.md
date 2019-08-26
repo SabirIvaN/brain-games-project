@@ -16,6 +16,7 @@ composer global require sabirivan/braingames:dev-master
 ```
 
 After installation, start brain-games.
+
 [![asciicast](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L.svg)](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L)
 
 ## Run the game
@@ -23,20 +24,25 @@ Start the game by calling the game module. You can run the following modules: br
 
 ### Brain-even
 A game mode where user has to answer with a yes or no if the shown number is even.
+
 [![asciicast](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS.svg)](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS)
 
 ## Brain-calc
 A game mode where user has to answer the correct result of a simple mathematical expression.
+
 [![asciicast](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN.svg)](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN)
 
 ## Brain-gcd
 A game mode where user has to answer which is the greatest common divisor of the two shown numbers.
+
 [![asciicast](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx.svg)](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx)
 
 ## Brain-progression
 A game mode where user has to answer which is the missing number from the arithmetical progression.
+
 [![asciicast](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB.svg)](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB)
 
 ## Brain-prime
-A game mode where user has to answer with a yes or no if the shown number is a prime number. 
+A game mode where user has to answer with a yes or no if the shown number is a prime number.
+
 [![asciicast](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb.svg)](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb)
