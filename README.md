@@ -4,7 +4,8 @@
 
 ## Description
 
-A small command line game involving basic arithmetical games which last for 3 rounds in case of successfully answering the questions.
+Project level 1 on Hexlet.
+This is a small command line game involving basic arithmetical games which last for 3 rounds in case of successfully answering the questions.
 This is an educational project with the main goal to get familiar with setting up development environment in a PHP project.
 
 ## Installation
@@ -26,6 +27,8 @@ Start the game by calling the game module. You can run the following modules:
 * brain-gcd;
 * brain-progression;
 * brain-prime.
+
+## Demonstration modules:
 
 ### Brain-even
 A game mode where user has to answer with a yes or no if the shown number is even.
