@@ -1,7 +1,13 @@
 {
     "name": "sabirivan/braingames",
     "description": "PHP project level 1",
-    "keywords": ["hexlet", "php", "project", "level1", "braingames"],
+    "keywords": [
+      "hexlet",
+      "php",
+      "project",
+      "level1",
+      "braingames"
+    ],
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -12,20 +18,18 @@
     ],
     "autoload": {
         "files": [
-          "src/cli.php",
-          "src/starter.php",
-          "src/games/even-game.php",
-          "src/games/calc-game.php",
-          "src/games/gcd-game.php",
-          "src/games/progression-game.php",
-          "src/games/prime-game.php"
+          "src/engine.php",
+          "src/games/even.php",
+          "src/games/calc.php",
+          "src/games/gcd.php",
+          "src/games/progression.php",
+          "src/games/prime.php"
         ]
     },
     "scripts": {
       "phpcs": "phpcs"
     },
     "bin": [
-      "bin/brain-games",
       "bin/brain-even",
       "bin/brain-calc",
       "bin/brain-gcd",

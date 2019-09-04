@@ -1,13 +1,13 @@
 <?php
 
-namespace BrainGames\Starter;
+namespace BrainGames\Engine;
 
 use function \cli\line;
 use function \cli\prompt;
 
 const ROUNDS_COUNT = 3;
 
-function starter($task, $getQuestionAnswer)
+function engine(string $task, callable $getQuestionAnswer)
 {
     line("Welcome to the Brain Games!");
     line($task);
@@ -19,7 +19,7 @@ function starter($task, $getQuestionAnswer)
         line("Question: {$question}");
         $userAnswer = prompt("Your answer");
 
-        if ((string)$userAnswer === (string)$rightAnswer) {
+        if ($userAnswer === $rightAnswer) {
             line("Correct!");
         } else {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer is '{$rightAnswer}'.");
@@ -28,5 +28,5 @@ function starter($task, $getQuestionAnswer)
         }
     }
 
-      line("Congratulations, {$userName}!");
+    line("Congratulations, {$userName}!");
 }

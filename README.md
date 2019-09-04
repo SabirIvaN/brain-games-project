@@ -15,10 +15,6 @@ In order to install the game run:
 composer global require sabirivan/braingames:dev-master
 ```
 
-After installation, start brain-games.
-
-[![asciicast](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L.svg)](https://asciinema.org/a/XiItMnL6tSg8vbeAEvNVSkz8L)
-
 ## Run the game
 Start the game by calling the game module. You can run the following modules:
 * brain-even;

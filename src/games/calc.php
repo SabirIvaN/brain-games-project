@@ -2,16 +2,16 @@
 
 namespace BrainGames\Games\CalcGame;
 
-use function BrainGames\Starter\starter;
+use function BrainGames\Engine\engine;
 
-const CHARS = ["+", "-", "*"];
+const SIGNS = ["+", "-", "*"];
 const MIN_VALUE = 1;
 const MAX_VALUE = 100;
 const TASK = "What is the resultof the expression?";
 
-function isCalc($number_1, $number_2, $char)
+function getCalc($number_1, $number_2, $sign)
 {
-    switch ($char) {
+    switch ($sign) {
         case "+":
             return $number_1 + $number_2;
         case "-":
@@ -21,15 +21,15 @@ function isCalc($number_1, $number_2, $char)
     }
 }
 
-function startCalcGame()
+function calcGame()
 {
     $generateGame = function () {
         $number_1 = rand(MIN_VALUE, MAX_VALUE);
         $number_2 = rand(MIN_VALUE, MAX_VALUE);
-        $char = CHARS[rand(0, count(CHARS))];
-        $question = "{$number_1} {$char} {$number_2}";
-        $rightAnswer = isCalc($number_1, $number_2, $char);
-        return [$question, $rightAnswer];
+        $sign = SIGNS[rand(0, count(SIGNS))];
+        $question = "$number_1 $sign $number_2";
+        $rightAnswer = getCalc($number_1, $number_2, $sign);
+        return [(string) $question, (string) $rightAnswer];
     };
-    starter(TASK, $generateGame);
+    engine(TASK, $generateGame);
 }

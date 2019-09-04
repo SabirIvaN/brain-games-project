@@ -2,11 +2,11 @@
 
 namespace BrainGames\Games\PrimeGame;
 
-use function BrainGames\Starter\starter;
+use function BrainGames\Engine\engine;
 
 const TASK = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
 
-function isPrime($number)
+function getPrime($number)
 {
     if ($number < 2) {
         return false;
@@ -24,12 +24,12 @@ function isPrime($number)
     return true;
 }
 
-function startPrimeGame()
+function primeGame()
 {
     $generateGame = function () {
         $question = rand(1, 100);
-        $rightAnswer = isPrime($question) ? "yes" : "no";
-        return [$question, $rightAnswer];
+        $rightAnswer = getPrime($question) ? "yes" : "no";
+        return [(string) $question, (string) $rightAnswer];
     };
-    starter(TASK, $generateGame);
+    engine(TASK, $generateGame);
 }

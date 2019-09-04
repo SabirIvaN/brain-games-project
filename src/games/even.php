@@ -2,23 +2,23 @@
 
 namespace BrainGames\Games\EvenGame;
 
-use function BrainGames\Starter\starter;
+use function BrainGames\Engine\engine;
 
 const MIN_VALUE = 1;
 const MAX_VALUE = 100;
 const TASK = "Answer \"yes\" if number even otherwise answer \"no\"";
 
-function isEven($number)
+function getEven($number)
 {
     return $number % 2 === 0;
 }
 
-function startEvenGame()
+function evenGame()
 {
     $generateGame = function () {
         $question = rand(MIN_VALUE, MAX_VALUE);
-        $rightAnswer = isEven($question) ? "yes" : "no";
-        return [$question, $rightAnswer];
+        $rightAnswer = getEven($question) ? "yes" : "no";
+        return [(string) $question, (string) $rightAnswer];
     };
-    starter(TASK, $generateGame);
+    engine(TASK, $generateGame);
 }
