@@ -52,11 +52,11 @@ A game mode where user has to answer which is the greatest common divisor of the
 
 Successful end:  
 
-[![asciicast](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx.svg)](https://asciinema.org/a/7yBKZQpS8t6dXU6DmQlO2tpxx)
+[![asciicast](https://asciinema.org/a/Uf4x3cCoohFQnJ47VdIw54ag8.svg)](https://asciinema.org/a/Uf4x3cCoohFQnJ47VdIw54ag8)
 
 Unsuccessful end:  
 
-[![asciicast](https://asciinema.org/a/MGgt3GqNEpr5pJWj2pfms0J2j.svg)](https://asciinema.org/a/MGgt3GqNEpr5pJWj2pfms0J2j)
+[![asciicast](https://asciinema.org/a/mDjJgoaSLtmXtQ0meXkswyf5a.svg)](https://asciinema.org/a/mDjJgoaSLtmXtQ0meXkswyf5a)
 
 ## Brain-progression
 A game mode where user has to answer which is the missing number from the arithmetical progression.
