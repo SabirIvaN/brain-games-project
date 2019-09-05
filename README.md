@@ -30,22 +30,22 @@ A game mode where user has to answer with a yes or no if the shown number is eve
 
 Successful end:  
 
-[![asciicast](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS.svg)](https://asciinema.org/a/xeFKzi7m29CZtIaEFltJ0PleS)
+[![asciicast](https://asciinema.org/a/M36Cb3Tot5CS7JWvPE86F11SS.svg)](https://asciinema.org/a/M36Cb3Tot5CS7JWvPE86F11SS)
 
 Unsuccessful end:  
 
-[![asciicast](https://asciinema.org/a/eYPE3oF4ExRuL5yGi32sEDJR8.svg)](https://asciinema.org/a/eYPE3oF4ExRuL5yGi32sEDJR8)
+[![asciicast](https://asciinema.org/a/gcj5NQuSG4tFmuwxAmHkWlK0c.svg)](https://asciinema.org/a/gcj5NQuSG4tFmuwxAmHkWlK0c)
 
 ## Brain-calc
 A game mode where user has to answer the correct result of a simple mathematical expression.
 
 Successful end:  
 
-[![asciicast](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN.svg)](https://asciinema.org/a/qIdQEnWKDGDDHKwXav5WpDtuN)
+[![asciicast](https://asciinema.org/a/L73DjxeF0SexhI0ljNeCxu9cH.svg)](https://asciinema.org/a/L73DjxeF0SexhI0ljNeCxu9cH)
 
 Unsuccessful end:  
 
-[![asciicast](https://asciinema.org/a/8CBrdba7D7rpm5XTjI1gAyI2W.svg)](https://asciinema.org/a/8CBrdba7D7rpm5XTjI1gAyI2W)
+[![asciicast](https://asciinema.org/a/UnZdbKM8Z4degPw19QhbdJxQU.svg)](https://asciinema.org/a/UnZdbKM8Z4degPw19QhbdJxQU)
 
 ## Brain-gcd
 A game mode where user has to answer which is the greatest common divisor of the two shown numbers.
@@ -63,18 +63,19 @@ A game mode where user has to answer which is the missing number from the arithm
 
 Successful end:  
 
-[![asciicast](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB.svg)](https://asciinema.org/a/pZliUhvh5ScVVVQMFo8lQeFzB)
+[![asciicast](https://asciinema.org/a/NFOEGpVGtRjhG9zMnAeXMCNgo.svg)](https://asciinema.org/a/NFOEGpVGtRjhG9zMnAeXMCNgo)
 
 Unsuccessful end:  
 
-[![asciicast](https://asciinema.org/a/UM4G3Q2fAjAUiL2K6FKSrVgr4.svg)](https://asciinema.org/a/UM4G3Q2fAjAUiL2K6FKSrVgr4)
+[![asciicast](https://asciinema.org/a/yJybHrb7fNAgWcvUiP2MAszqn.svg)](https://asciinema.org/a/yJybHrb7fNAgWcvUiP2MAszqn)
 
 ## Brain-prime
 A game mode where user has to answer with a yes or no if the shown number is a prime number.
 
 Successful end:  
 
-[![asciicast](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb.svg)](https://asciinema.org/a/vld4wSPvHfLoSilDDW3tVP4Rb)
+[![asciicast](https://asciinema.org/a/glLjT6d2VyDWk3XzoHb4I7fp8.svg)](https://asciinema.org/a/glLjT6d2VyDWk3XzoHb4I7fp8)
 
 Unsuccessful end:  
-[![asciicast](https://asciinema.org/a/HAqQjUJ8ZdJbQs7V89D1Q9gmH.svg)](https://asciinema.org/a/HAqQjUJ8ZdJbQs7V89D1Q9gmH)
+
+[![asciicast](https://asciinema.org/a/I5cHOutZ5aStCrUJoyZfRB9ks.svg)](https://asciinema.org/a/I5cHOutZ5aStCrUJoyZfRB9ks)
