@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\ProgressionGame;
+namespace BrainGames\Games\Progression;
 
 use function BrainGames\Engine\engine;
 
@@ -26,7 +26,7 @@ function progressionGame()
         $rightAnswer = (string) $progression[$hiddenElementIndex];
         $progression[$hiddenElementIndex] = "..";
         $question = implode(" ", $progression);
-        return [(string) $question, (string) $rightAnswer];
+        return [$question, (string) $rightAnswer];
     };
     engine(TASK, $generateGame);
 }

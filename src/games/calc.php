@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\CalcGame;
+namespace BrainGames\Games\Calc;
 
 use function BrainGames\Engine\engine;
 
@@ -9,27 +9,27 @@ const MIN_VALUE = 1;
 const MAX_VALUE = 100;
 const TASK = "What is the resultof the expression?";
 
-function getCalc($number_1, $number_2, $sign)
+function getCalc($first, $second, $sign)
 {
     switch ($sign) {
         case "+":
-            return $number_1 + $number_2;
+            return $first + $second;
         case "-":
-            return $number_1 - $number_2;
+            return $first - $second;
         case "*":
-            return $number_1 * $number_2;
+            return $first * $second;
     }
 }
 
 function calcGame()
 {
     $generateGame = function () {
-        $number_1 = rand(MIN_VALUE, MAX_VALUE);
-        $number_2 = rand(MIN_VALUE, MAX_VALUE);
+        $first = rand(MIN_VALUE, MAX_VALUE);
+        $second = rand(MIN_VALUE, MAX_VALUE);
         $sign = SIGNS[rand(0, count(SIGNS) - 1)];
-        $question = "$number_1 $sign $number_2";
-        $rightAnswer = getCalc($number_1, $number_2, $sign);
-        return [(string) $question, (string) $rightAnswer];
+        $question = "$first $sign $second";
+        $rightAnswer = getCalc($first, $second, $sign);
+        return [$question, (string) $rightAnswer];
     };
     engine(TASK, $generateGame);
 }

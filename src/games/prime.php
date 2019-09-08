@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\PrimeGame;
+namespace BrainGames\Games\Prime;
 
 use function BrainGames\Engine\engine;
 
@@ -29,7 +29,7 @@ function primeGame()
     $generateGame = function () {
         $question = rand(1, 100);
         $rightAnswer = getPrime($question) ? "yes" : "no";
-        return [(string) $question, (string) $rightAnswer];
+        return [$question, (string) $rightAnswer];
     };
     engine(TASK, $generateGame);
 }

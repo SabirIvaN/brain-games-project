@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\EvenGame;
+namespace BrainGames\Games\Even;
 
 use function BrainGames\Engine\engine;
 
@@ -18,7 +18,7 @@ function evenGame()
     $generateGame = function () {
         $question = rand(MIN_VALUE, MAX_VALUE);
         $rightAnswer = getEven($question) ? "yes" : "no";
-        return [(string) $question, (string) $rightAnswer];
+        return [$question, (string) $rightAnswer];
     };
     engine(TASK, $generateGame);
 }
