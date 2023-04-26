@@ -22,18 +22,7 @@ Start the game by calling the game module. You can run the following modules:
 * brain-progression;
 * brain-prime.
 
-## Demonstration modules:
 
-### Brain-even
-A game mode where user has to answer with a yes or no if the shown number is even.
-
-Successful end:  
-
-[![asciicast](https://asciinema.org/a/M36Cb3Tot5CS7JWvPE86F11SS.svg)](https://asciinema.org/a/M36Cb3Tot5CS7JWvPE86F11SS)
-
-Unsuccessful end:  
-
-[![asciicast](https://asciinema.org/a/gcj5NQuSG4tFmuwxAmHkWlK0c.svg)](https://asciinema.org/a/gcj5NQuSG4tFmuwxAmHkWlK0c)
 
 ## Brain-calc
 A game mode where user has to answer the correct result of a simple mathematical expression.
